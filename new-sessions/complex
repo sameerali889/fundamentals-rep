@@ -1,0 +1,13 @@
+num = 4-7j
+print("num value:", num)
+print("num type:", type(num))
+print("num real part:", num.real)
+print("num imaginary part:", num.imag)
+
+other = 1+2j
+print("other value:", other)
+print("other type:", type(other))
+print("other real part:", other.real)
+print("other imaginary part:", other.imag)
+print(type(num.real))
+print(type(num.imag))
