@@ -23,7 +23,23 @@ print(type(y))
 print(type(z))
 print(type(k))"""""
 
-x =-0.9
+"""x =-0.9
 print(x)
-print(type(x))
+print(type(x))"""
+
+"""type1 = True
+print(type1)
+
+Sameer_Male = "True"
+print(Sameer_Male == "True")"""""
+
+"""x = 5
+y = 4
+print(x + y == 9)
+"""""
+
+str1= "Apple"
+print(str1)
+print(type(str1))
+print(len(str1)!=5)
 
