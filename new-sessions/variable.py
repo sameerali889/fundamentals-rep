@@ -189,17 +189,66 @@ print(a,b,c)"""""
 # list2.append(7)
 # print(list2) # [1, 2, 3, 4, 5, 6, 7]
 # extend() method adds multiple elements to the end of the list. It takes an iterable (like a list, tuple, or set) as an argument and adds each element of the iterable to the end of the list.
-list3 =[1,2,3,4,5]
-# list3.extend([6,7,8])
-print(list3) # [1, 2, 3, 4, 5, 6, 7, 8]
-# list3.extend([9,10])
-print(list3) # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# list3.extend({11,12,14})
-print(list3) # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14]
-print(type(list3)) # <class 'list'>
-# insert() method adds an element at a specific index in the list. It takes two arguments
-list3.insert(0,0)
-list3.insert(5,100)
-print(list3) # [0, 1, 2, 3, 4, 100, 5, 6, 7, 8, 9, 10, 11, 12, 14]
-list3.insert(-1,200)
-print(list3) # [0, 1, 2, 3, 4
+# list3 =[1,2,3,4,5]
+# # list3.extend([6,7,8])
+# print(list3) # [1, 2, 3, 4, 5, 6, 7, 8]
+# # list3.extend([9,10])
+# print(list3) # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# # list3.extend({11,12,14})
+# print(list3) # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14]
+# print(type(list3)) # <class 'list'>
+# # insert() method adds an element at a specific index in the list. It takes two arguments
+# list3.insert(0,0)
+# list3.insert(5,100)
+# print(list3) # [0, 1, 2, 3, 4, 100, 5, 6, 7, 8, 9, 10, 11, 12, 14]
+# list3.insert(-1,200)
+# print(list3) # [0, 1, 2, 3, 4 
+# -----------------------------------
+# removing elements from a list using remove() method
+# remove() method removes the first occurrence of a specified value from the list. It takes a single argument, which is the value to be removed. If the value is not found in the list, it raises a ValueError.
+# list4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# list4.remove(5)
+# print(list4) # [1, 2, 3, 4, 6   
+#    pop() method removes an element at a specific index from the list and returns the removed element. It takes a single argument, which is the index of the element to be removed. If no index is specified, it removes and returns the last element of the list.
+list2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# list2.pop(4)
+# print(list2) 
+# list2.pop(5)
+# print(list2)
+
+# # remove() method removes the first occurrence of a specified value from the list. It takes a single argument, which is the value to be removed. If the value is not found in the list, it raises a ValueError.
+# # list2.remove(3)
+# # print(list2)
+# # list2.remove(7)
+# # print(list2)
+# #clear() method removes all elements from the list, leaving it empty. It does not take any arguments and does not return any value.
+# list2.clear()
+# print(list2) # []
+# search methods 
+# .index() method returns the index of the first occurrence of a specified value in the list. It takes a single argument, which is the value to be searched for. If the value is not found in the list, it raises a ValueError.
+print(list2.index(3)) # 2
+print(list2.index(7))
+l1 =[10,32,45,67,89,100]
+l2 =l1.copy()
+print(l1)
+print(l2) # [10, 32, 45, 67, 89, 100]
+print(id(l1))
+print(id(l2))
+l2[0] = 1000
+print(l1) # [10, 32, 45, 67, 89
+print(l2) # [1000, 32, 45, 67, 89, 100]
+l1 = [10,32,45,67,89,100]
+l2 = l1.copy()
+print(l1,id(l1))
+print(l2,id(l2)) # [10, 32, 45, 67, 89
+l3 = l1
+print(l1,id(l1))
+print(l3,id(l3)) # [10, 32, 45, 67, 89, 100]
+l3[0] = 1000
+print(l1) # [1000, 32, 45, 67, 89, 100]
+print(l3) # [1000, 32, 45, 67, 89, 100]
+
+l1 =[10,23,34,[1,2,3]]
+l2 =l1
+print(l1,id(l1))
+print(l2,id(l2))
