@@ -133,9 +133,10 @@ print(a,b,c)"""""
 #print(str4.isdigit())
 #print(str4.isalnum())
 #print(str4.isspace())
+#-----------------------
 # List is a built-in data structure used to store an ordered collection of items. 
 # They are dynamic, resizable and capable of storing multiple data types
-#list (),list[]
+#list (),list[] mutable, ordered, allows duplicate members
 # students = ["Ali", "Ahmed", "Ayesha", "Zara"]
 # print(students)
 # student =[23,45,67,89]
@@ -144,7 +145,61 @@ print(a,b,c)"""""
 # print(students1)
 # students2 =("Ali", 23, "Ahmed", 45, "Ayesha", 67, "Zara", 89) # Tuple collection is ordered and unchangeable. Allows duplicate members.
 # print(students2)
-
+# list is heterogeneous collection of items. It can store different data types in a single list.
 # set collection is unordered and unindexed. No duplicate members.
-set1 = {"Ali", 23, "Ahmed", 45, "Ayesha", 67, "Zara", 89}
-print(set1)
+# set1 = {"Ali", 23, "Ahmed", 45, "Ayesha", 67, "Zara", 89}
+# print(set1)
+
+# l1 =[]
+# print(l1)
+# print(type(l1)) #<class 'list'>
+
+# l2 = list()
+# print(l2)
+# print(type(l2)) #<class 'list'>
+
+# l3 = [1, 2, 3, 4, 5]
+# print(l3)
+# print(type(l3))
+
+# l4 =list({1,2,3,4,5})
+# print(l4)
+# print(type(l4))    
+# l5 = [1.1,2.2,3.06,-0.45,12]
+# print(l5)
+# print(type(l5))
+# number = [1,2,3,4,5,6,7,8,9,10]
+# print(number)
+# print(type(number))
+        # 0      1         2          3
+# list1 = ["Ali", "Ahmed", "Ayesha", "Zara"]
+# print(list1[0]) # Ali
+# print(list1[1]) # Ahmed. indexing hogaya
+# print(list1[3])
+# print(list1[-1]) # Zara negartive indxing right to left hogaya
+# print(list1[-2]) # Ayesha
+# print(list1[-4]) # Ali
+# print(list1[0:3:1]) #slicing 0 to 3 index tak print hoga step size 1 hoga
+# print(list1[0:4:2]) # step size 2 hoga 0
+# print(list1[0::3])
+
+# ad elements to a list using append() method 
+# append() method adds an element to the end of the list. It takes a single argument, which is the element to be added.
+# list2 =[1,2,3,4,5,6]
+# list2.append(7)
+# print(list2) # [1, 2, 3, 4, 5, 6, 7]
+# extend() method adds multiple elements to the end of the list. It takes an iterable (like a list, tuple, or set) as an argument and adds each element of the iterable to the end of the list.
+list3 =[1,2,3,4,5]
+# list3.extend([6,7,8])
+print(list3) # [1, 2, 3, 4, 5, 6, 7, 8]
+# list3.extend([9,10])
+print(list3) # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# list3.extend({11,12,14})
+print(list3) # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14]
+print(type(list3)) # <class 'list'>
+# insert() method adds an element at a specific index in the list. It takes two arguments
+list3.insert(0,0)
+list3.insert(5,100)
+print(list3) # [0, 1, 2, 3, 4, 100, 5, 6, 7, 8, 9, 10, 11, 12, 14]
+list3.insert(-1,200)
+print(list3) # [0, 1, 2, 3, 4
