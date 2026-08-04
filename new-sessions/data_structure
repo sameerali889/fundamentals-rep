@@ -1,0 +1,30 @@
+# Tuple: it is a collection data type that is ordered and unchangeable. Tuples are written with round brackets.
+# it is heterogenous all types of data types will be listed in tuples
+# it is ordered it supports indeing and slicing
+# Tuple () function
+# tup1 = ()
+# print(tup1)
+# print(type(tup1)) #<class 'tuple'> it is empty tuple tuple accpets empty value also
+
+# # tup2 =(1,2,3,4,5)
+# print(tup2)
+# print(type(tup2)) #<class 'tuple'>
+# tup3 = (1, 2.0, 4 - 6j, "false", "apple", [1, 2, 3, 4, "banana"], (11, 22, 33, 43, 54))
+# print(tup3)
+# print(type(tup3)) #<class 'tuple'>
+
+# tup4 = tuple([1,2,3,4,5]) # list to tuple conversion
+# tup5 = tuple((11,22,33,44,55)) # tuple
+# tup6 = tuple({12,23,34,45}) # this is set to tuple the op will print randomly
+
+# print(tup4, type(tup4)) # <class 'tuple'>
+# print(tup5, type(tup5)) # <class 'tuple'>
+# print(tup6, type(tup6)) # <class 'tuple'>
+# #        0  1.  2.   3. 4.  5.  6
+tup7 =(123,234,345,456,567,678,789)
+print(tup7[0]) #123
+print(tup7[-1]) #789
+# tuple slicing
+print(tup7[0::2])
+
+

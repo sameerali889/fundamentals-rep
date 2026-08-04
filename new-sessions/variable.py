@@ -258,5 +258,12 @@ list2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # range is memory efficient (friendly) datatype which means it does not store all the values in memory at once, it generates the values on fly when we iterate over it
 # how to create a range:
 # range(start, end, step)
-r1 =set(range(1, 11)) # start=1, end=11, step=1
-print(r1) # [1, 2, 3, 4, 5
+# r1 =set(range(1, 11)) # start=1, end=11, step=1
+# print(r1) # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# r2 =set(range(1, 11, 2)) # start=1
+        # ------------------------------
+        
+        # Dictionay:
+        # it is a collection of variable and value pair.
+        #  it is ordered but index using its variable ,variable cannot be duplicated
+        # 
