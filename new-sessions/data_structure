@@ -20,11 +20,24 @@
 # print(tup4, type(tup4)) # <class 'tuple'>
 # print(tup5, type(tup5)) # <class 'tuple'>
 # print(tup6, type(tup6)) # <class 'tuple'>
-# #        0  1.  2.   3. 4.  5.  6
-tup7 =(123,234,345,456,567,678,789)
-print(tup7[0]) #123
-print(tup7[-1]) #789
+# #     0  1.  2.   3. 4.  5.  6
+#        -7. -6   -5   -4.  -3.  -2.   -1.  
+# tup7 =(123,234,345,456,567,678,789)
+#print(tup7[0]) #123
+#print(tup7[-1]) #789
 # tuple slicing
-print(tup7[0::2])
+#print(tup7[0::2]) #(123, 345, 567, 789)
+#print(tup7[0::3]) # (123, 456, 789)
+# print(tup7[-6::1]) # (234, 123)
+# print(tup7[:: -1]) #(789, 678, 567, 456, 345, 234, 123)
 
 
+
+#            0     1     2     3     4     5     6
+# tup7 =     (123, 234, 345, 456, 567, 678, 789)
+# -7    -6    -5    -4    -3    -2    -1
+# Index() to get the index of a particular element
+tup8 =(1,2,3,4,5,6,7,8,9,0)
+print(tup8(0)) 
+
+# count()
