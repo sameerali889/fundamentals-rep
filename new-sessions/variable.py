@@ -226,29 +226,37 @@ list2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # print(list2) # []
 # search methods 
 # .index() method returns the index of the first occurrence of a specified value in the list. It takes a single argument, which is the value to be searched for. If the value is not found in the list, it raises a ValueError.
-print(list2.index(3)) # 2
-print(list2.index(7))
-l1 =[10,32,45,67,89,100]
-l2 =l1.copy()
-print(l1)
-print(l2) # [10, 32, 45, 67, 89, 100]
-print(id(l1))
-print(id(l2))
-l2[0] = 1000
-print(l1) # [10, 32, 45, 67, 89
-print(l2) # [1000, 32, 45, 67, 89, 100]
-l1 = [10,32,45,67,89,100]
-l2 = l1.copy()
-print(l1,id(l1))
-print(l2,id(l2)) # [10, 32, 45, 67, 89
-l3 = l1
-print(l1,id(l1))
-print(l3,id(l3)) # [10, 32, 45, 67, 89, 100]
-l3[0] = 1000
-print(l1) # [1000, 32, 45, 67, 89, 100]
-print(l3) # [1000, 32, 45, 67, 89, 100]
+# print(list2.index(3)) # 2
+# print(list2.index(7))
+# l1 =[10,32,45,67,89,100]
+# l2 =l1.copy()
+# print(l1)
+# print(l2) # [10, 32, 45, 67, 89, 100]
+# print(id(l1))
+# print(id(l2))
+# l2[0] = 1000
+# print(l1) # [10, 32, 45, 67, 89
+# print(l2) # [1000, 32, 45, 67, 89, 100]
+# l1 = [10,32,45,67,89,100]
+# l2 = l1.copy()
+# print(l1,id(l1))
+# print(l2,id(l2)) # [10, 32, 45, 67, 89
+# l3 = l1
+# print(l1,id(l1))
+# print(l3,id(l3)) # [10, 32, 45, 67, 89, 100]
+# l3[0] = 1000
+# print(l1) # [1000, 32, 45, 67, 89, 100]
+# print(l3) # [1000, 32, 45, 67, 89, 100]
 
-l1 =[10,23,34,[1,2,3]]
-l2 =l1
-print(l1,id(l1))
-print(l2,id(l2))
+# l1 =[10,23,34,[1,2,3]]
+# l2 =l1
+# print(l1,id(l1))
+# print(l2,id(l2))
+# --------------------------
+# Range: range is a datatype which generateas seq of numbers and that seq is generatred on fly
+# range is immutable datatype which means we cannot change the values of range once it is created
+# range is memory efficient (friendly) datatype which means it does not store all the values in memory at once, it generates the values on fly when we iterate over it
+# how to create a range:
+# range(start, end, step)
+r1 =set(range(1, 11)) # start=1, end=11, step=1
+print(r1) # [1, 2, 3, 4, 5
