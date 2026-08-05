@@ -24,7 +24,7 @@
 #        -7. -6   -5   -4.  -3.  -2.   -1.  
 # tup7 =(123,234,345,456,567,678,789)
 #print(tup7[0]) #123
-#print(tup7[-1]) #789
+#print(tup7[-1]) rgb(204, 225, 246)
 # tuple slicing
 #print(tup7[0::2]) #(123, 345, 567, 789)
 #print(tup7[0::3]) # (123, 456, 789)
@@ -38,6 +38,24 @@
 # -7    -6    -5    -4    -3    -2    -1
 # Index() to get the index of a particular element
 tup8 =(1,2,3,4,5,6,7,8,9,0)
-print(tup8(0)) 
+# print(tup8.index(8)) 
+# print(tup8.index(6))
 
-# count()
+# count() : to get the count of a particular element menas how many times the number is repeated
+print(tup8.count(5))
+#  -------------------
+# packaging unpackging ()
+x,y,z,m = (12,23,34,56)
+print(x)
+print(y)
+print(z)
+print(m)
+# ----------------------- concat
+t1 = (1,2,4)
+t2 = (4,5,6)
+t3 = t1+t2
+print(t3)
+#  repetition
+t5 = (1,2,3)
+print(t5*2)
+# -------------------------------------  Tuple completed -----------------
