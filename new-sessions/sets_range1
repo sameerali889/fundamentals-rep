@@ -1,0 +1,66 @@
+# SET:   1: IT IS A COLLECTION DATATYPE
+#        2: It is Unordered Datatype,it doesn't support Indexing
+#        3: It supports partiale heterogenous (contains only immutable DT)
+#        4: set itself is mutable(chanageable()) but inside it it allows immutbale data
+#        5:     allows unique elements
+#        6.  It is a hash table
+# -------------------
+# s1={1,} # <class 'set'>
+# s1 =(1,) # <class 'tuple'>
+# print(s1)
+# print(type(s1)) #(variable) s1: tuple[Literal[1]]
+#  using set () function
+# s2 =set()
+# print(s2)
+# print(type(s2)) # <class 'set'>
+
+# s3 = set({1,2,3,4,5,6,7,8}) # {1, 2, 3, 4, 5, 6, 7, 8} <class 'set'>
+# print(s3)
+# print(type(s3))
+
+# s4 ={1.3,1,2-6j,"apple"} # {(2-6j), True, 'apple', 1.3} <class 'set'> the output will be totally random
+# print(s4)
+# print(type(s4)) # {(2-6j), 1.3, 1, 'apple'} 
+
+# s5 = set({1.3, 1, 2-6j, "apple", (11,22,33,44), (10,20,30,40)})
+# print(s5)
+# print(type(s5))
+
+# s2 = {1, 1.1, 3+4j, "apple", False, (10,20,30,40)}
+# print(s2)
+# print(type(s2))
+
+# set in bulit functions 
+s6 ={1,2,3,4,5,6,6,7,8,9,11,22,33,44,55} # it only accepts unique elements
+# # print(s6)
+# # print(type(s6))
+# #  add() only one element
+# s6.add(100)
+# print(s6)
+# # update() multiple elements
+# s6.update([10,20,30,40])
+# print(s6)
+# # remove()
+# s6.remove(22)
+# s6.remove(55)
+# print(s6)
+# s7 =s6
+# s7 =s6.copy()
+# print(s7)
+s1 ={1,2,3,4}
+s2 ={4,5,6,7}
+#print(s1|s2) # {1, 2, 3, 4, 5, 6, 7} duplicate will be removed 
+# print(s1.union(s2))
+# print(s2.union(s1))
+# print(s1-s2) #difference 
+# print(s1 &s2) #
+# print (s1.intersection(s2))
+# print (s2.intersection(s1))
+# (s1.difference_update(s2))
+# print(s1)
+# (s2.difference_update(s1))
+# print(s2)
+s1.intersection_update(s2)
+print(s1)
+s2.intersection_update(s1)
+print(s2)
