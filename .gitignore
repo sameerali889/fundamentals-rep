@@ -1,0 +1,3 @@
+# Ignore workspace lesson files and generated caches
+python-11AM/
+__pycache__/
