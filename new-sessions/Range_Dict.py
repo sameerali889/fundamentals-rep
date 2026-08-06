@@ -23,3 +23,4 @@
 r5=list(range(50,100,4))
 print(r5)
 print(type(r5))
+# Range Completed
