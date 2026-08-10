@@ -41,34 +41,58 @@ y=6
 # print(x**y)
 # Assignment operators
 # = : stores a value in a variable
-print(x)
-print(y)
-# += : adds to a variable and stores the result
-x+=y
-print (x)
-print(y)
-# -= : subtracts from a variable and stores the result
-x-=y
-print(x)
-print(y)
-# *= : multiplies a variable and stores the result
-x*=y
-print(x)
-print(y)
-# /= : divides a variable and stores the result
-x/=y
-print(x)
-print(y)
-# //= : floor-divides a variable and stores the result
-x//=y
-print(x)
-print(y)
-# %= : computes remainder and stores the result
-x%=y
-print(x)
-print(y)
-# **= : raises a variable to a power and stores the result
-x**=y
-print(x)
-print(y)
+# print(x)
+# print(y)
+# # += : adds to a variable and stores the result
+# x+=y
+# print (x)
+# print(y)
+# # -= : subtracts from a variable and stores the result
+# x-=y
+# print(x)
+# print(y)
+# # *= : multiplies a variable and stores the result
+# x*=y
+# print(x)
+# print(y)
+# # /= : divides a variable and stores the result
+# x/=y
+# print(x)
+# print(y)
+# # //= : floor-divides a variable and stores the result
+# x//=y
+# print(x)
+# print(y)
+# # %= : computes remainder and stores the result
+# x%=y
+# print(x)
+# print(y)
+# # **= : raises a variable to a power and stores the result
+# x**=y
+# print(x)
+# print(y)
 # &=, |=, ^=, <<=, >>= : combine bitwise or shift operations with assignment
+
+# --------------------------------------------------------------------------------
+#Comparision Operator:
+    # -> Equal to : ==
+# print(x==y)
+#     # -> Not equal to !=
+# print(x!=y)
+#     # -> greater than : >
+# print(x>y)
+#     # -> lesser than : <
+# print(x<y)
+#     # -> greater than or equal to: >=
+# print(x>=y)
+#     # -> lesser than or equal to <=
+# print(x<=y)
+
+# Identity operator:
+# In Python, identity operators are used to compare whether two variables refer to the same object in memory, not just whether they have the same value.
+
+# There are two identity operators:
+
+# is – Returns True if both variables point to the same object.
+# is not – Returns True if both variables point to different objects.
+
