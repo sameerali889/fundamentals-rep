@@ -96,3 +96,52 @@ y=6
 # is – Returns True if both variables point to the same object.
 # is not – Returns True if both variables point to different objects.
 
+
+# is 
+# is not
+# from copy import deepcopy
+# x=[1,2,3,4,5]
+# y =x
+# # y=deepcopy(x)
+# #print( x is y) # is True
+
+# # x is not y
+# print( x is not y)
+
+#  5: Membership operators are used to check whether a particular value exists inside a collection such as a string, list, tuple, set, or dictionary.
+
+# Python has 2 membership operators:
+
+# Operator	Meaning
+# in	Checks if a value exists
+# not in	Checks if a value does not exist
+# s1 = {4, 7, 1, 'H', 0}
+# # 1: in
+# # print(True in s1)
+# # print(8 in s1)
+# # 2 not in
+# print(False not in s1)
+# print(12 not in s1)
+
+# 6: Logical Operator:
+# x =5
+# y=12
+# z =4
+
+# # 1:and
+# # print(z>x and z>y)
+# # print(y>x and y>z)
+# # print(z<x and z<y)
+
+# # 2: or: either of the option should be true
+# # print(z >y and z <x)
+# # print(z >x and z >y)
+# # print(z <x and z <y)
+# # 3: not:
+# print(not(x>y) and (y> z) or (z>x)) 
+# Ternary operator: if logic is simple and very conditions then use:
+age = 20
+
+result = "Adult" if age >= 18 else "Minor"
+
+print(result)

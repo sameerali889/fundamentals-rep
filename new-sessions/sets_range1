@@ -47,9 +47,9 @@ s6 ={1,2,3,4,5,6,6,7,8,9,11,22,33,44,55} # it only accepts unique elements
 # s7 =s6
 # s7 =s6.copy()
 # print(s7)
-s1 ={1,2,3,4,5,6,7,8}
-s2 ={4,8,1}
-s3 ={11,5,7,9}
+# s1 ={1,2,3,4,5,6,7,8}
+# s2 ={4,8,1}
+# s3 ={11,5,7,9}
 #print(s1|s2) # {1, 2, 3, 4, 5, 6, 7} duplicate will be removed 
 # print(s1.union(s2))
 # print(s2.union(s1))
