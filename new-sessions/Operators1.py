@@ -100,10 +100,10 @@ y=6
 # is 
 # is not
 # from copy import deepcopy
-# x=[1,2,3,4,5]
-# y =x
-# # y=deepcopy(x)
-# #print( x is y) # is True
+x=[1,2,3,4,5]
+y =x
+# y=deepcopy(x)
+print( x is y) # is True
 
 # # x is not y
 # print( x is not y)
@@ -140,8 +140,9 @@ y=6
 # # 3: not:
 # print(not(x>y) and (y> z) or (z>x)) 
 # Ternary operator: if logic is simple and very conditions then use:
-age = 20
+# age = 20
 
-result = "Adult" if age >= 18 else "Minor"
+# result = "Adult" if age >= 18 else "Minor"
 
-print(result)
+# print(result)
+#  Operators Completed 
