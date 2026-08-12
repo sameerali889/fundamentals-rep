@@ -43,14 +43,53 @@
 
 # for i in range(len(numbers)):
 #     if numbers[i] == target:
-#         print("Index:", i)
+# #         print("Index:", i)
 
-word =input("enter your name:")
-character=input("Enter a Character :")
-count =0
-for i in range(len(word)):
-    if word[i]==character:
-        count+=1
-        print(character, "appears", count, "times")
-        break
-    
+# word =input("enter your name:")
+# character=input("Enter a Character :")
+# count =0
+# for i in range(len(word)):
+#     if word[i]==character:
+#         count+=1
+#         print(character, "repeats", count, "times")
+#         break
+
+    # write a program to print fibanocci series upto user wants
+# num1=0
+# num2=1
+# nums_of_nums=int(input("Enter The Number you want :"))
+# print(num1)
+# print(num2)
+# for i in range(2,nums_of_nums):
+#     new= num1 + num2
+#     print(new)
+# num1=num2
+# num2=new
+
+# for i in range(1, 100):
+#     if i % 7 == 0 and i % 3 == 0:
+#         print(i)
+#     else:
+#         pass
+# for i in range(10, 0, -1):
+#     print(i*5)
+
+
+# # print bellow strings charecters in reverse order using for loop
+
+# str1 = "ASDFG"   # 4, -1, -1
+# print(len(str1))
+
+# for i in range(len(str1)-1, -1, -1):
+#     print(str1[i]) below is using list[]:
+# def fibonacci_with_list(n):
+#     fib_series = [0, 1]
+#     for i in range(2, n):
+#         fib_series.append(fib_series[-1] + fib_series[-2])
+#     return fib_series
+
+# # Example usage:
+# n = 10
+# result = fibonacci_with_list(n)
+# print(f"Fibonacci series with {n} elements:", result)
+# for i in range(2,n):
