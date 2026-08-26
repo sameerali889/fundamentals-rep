@@ -52,3 +52,13 @@ set_var7 ={1,2,3,4,5,"ahhh",True}
 print(type(set_var7)) # <>
 dict_var8={"name": "Sameer", "age": 20, "student": True} # Key:value pair
 print(type(dict_var8)) # <>
+
+# Take a number as input and convert it into int, float, and str.
+number_input = input("Enter a number: ")
+number_int = int(number_input)
+number_float = float(number_input)
+number_str = str(number_input)
+
+print(number_int, type(number_int))
+print(number_float, type(number_float))
+print(number_str, type(number_str))
