@@ -1,0 +1,21 @@
+#NUmeric: 
+# INT: a number without decimal point including  0  called integers
+# integers can be postivie and negative
+
+# Float: a number with decimal point with .0
+# it can be pos and negative anything with a decimal point is called float
+# x=1.0
+# y=2.5
+# print(x)
+# print(y)
+# print(type(x))
+# print(type(y))
+
+ # Complex :  a combination of real numbers and img num
+x= 6-2j
+y =4-2j
+print(x)
+print(y)
+print(type(x))  #<class 'complex'>
+print(type(y)) # <class 'complex'>
+

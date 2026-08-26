@@ -1,13 +1,27 @@
-num = 4-7j
-print("num value:", num)
-print("num type:", type(num))
-print("num real part:", num.real)
-print("num imaginary part:", num.imag)
+# Complex: A combination of real number and img numbers
+# Real :all int and float numbers are real : 0-9,-9,0.6 postivie and negative
+#Real: 0-9,-9,0.6 postivie and negative
+ # Img Number:6j,4-5j,2-4j a no with suffix is "img number ending with j"
 
-other = 1+2j
-print("other value:", other)
-print("other type:", type(other))
-print("other real part:", other.real)
-print("other imaginary part:", other.imag)
-print(type(num.real))
-print(type(num.imag))
+# num = 4-7j
+# print("num value:", num)
+# print("num type:", type(num))
+# print("num real part:", num.real)
+# print("num imaginary part:", num.imag)
+
+# other = 1+2j
+# print("other value:", other)
+# print("other type:", type(other))
+# print("other real part:", other.real)
+# print("other imaginary part:", other.imag)
+# print(type(num.real))
+# print(type(num.imag))
+
+
+# x=-0.23-4.45j
+# print(x)
+# print(type(x)) # <class 'complex'>
+
+z=4-2j
+print(z.real)
+print(z.imag)

@@ -1,51 +1,120 @@
-"""num1=10
-print(num1)
-fruiT="banana"
-print(fruiT)"""
+# num1=10
+# print(num1)
+# fruiT="banana"
+# print(fruiT)
 
-"""x= 10
-y= 5    
-z =x + y
-print(x)
-print(y)
-print(z)"""
+# x= 10
+# y= 5    
+# z =x + y
+# print(x)
+# print(y)
+# print(z)
 
-"""x=1.0
-y=2.0
-z="ali"
-k="True"
-print(x)
-print(y)
-print(z)
-print(k)
-print(type(x))
-print(type(y))
-print(type(z))
-print(type(k))"""""
 
-"""x =-0.9
-print(x)
-print(type(x))"""
 
-"""type1 = True
-print(type1)
+# x=1.0
+# y=2.0
+# z="ali"
+# k="True"
+# print(x)
+# print(y)
+# print(z)
+# print(k)
+# print(type(x))
+# print(type(y))
+# print(type(z))
+# print(type(k))
 
-Sameer_Male = "True"
-print(Sameer_Male == "True")"""""
+# x =-0.9
+# print(x)
+# print(type(x))
 
-"""x = 5
-y = 4
-print(x + y == 9)
-"""""
 
-#str1= "Apple"
-#print(str1)
-#print(type(str1))
-#print(len(str1)!=5)
+# Bool: a data type of two values True and False
+
+# type1 = True
+# print(type(type1)) #<class 'bool'>
+
+# Sameer_Male = "True"
+# print(Sameer_Male == "True")
+
+
+# x = 5
+# y = 4
+# print(x + y == 9)
+
+
+# str1= "Apple"
+# print(str1)
+# print(type(str1))
+# print(len(str1)!=5)
+#Strings: it is a seq of characters :alphabets,numbers,special characters and emojis
+# These are 4 ways of writing strings in Python, but they are mainly two styles of quotation marks:
+
+# 1.Single quotes → ' '
+# 2.Double quotes → " "
+# 3.Triple single quotes → ''' '''
+# 4.Triple double quotes → """ """
 #string manipulation functions
+# a = """Lorem ipsum dolor sit amet,
+# consectetur adipiscing elit,
+# sed do eiusmod tempor incididunt
+# ut labore et dolore magna aliqua."""
+# print(a)
 
+# s1 = 'asdfghjk' 
+# print(s1)
+# s2 = 'SDFGHJK'
+# print(s2)
+# s3 = 'DFGHfghj'
+# print(s3)
+# s4 = "I'm your buddy"
+# print(s4)
+# s5 = '1234567'
+# print(s5)
+# s6 = '@#$%^&*()'
+# print(s6)
+# s7 = "Ali@#$1234"
+# print(s7)
+# s8 = '🔥'
+# print(s8)
+# s9 = '🔥gdiuwd3567$%^&FGH'
+# print(s9)
+# String Indexing :
+# str2= "APPLE"
+# print(str2[-2])
+# print(str2[0])
+# print(str2[3])
+# Indexing:
+# Character:   P    y    t    h    o    n
+# Positive:    0    1    2    3    4    5
+# Negative:   -6   -5   -4   -3   -2   -1
+ # "Slicing" : string[start:end]
+#  Start is included, end is excluded, step tells Python how to move.
+# str2="India My Country"
+# # print(str2[0])
+# # print(str2[-5])
+# print(str2[1:2:1]) #slicing
+# print(str2[-2])
+
+# str3="1234567890"
+# #123
+# # print(str3[0:3:1])
+# # # print(str3[-3::1])
+# # print(str3[3:8:1])
+# print (str3[3::-1])
+# print(str3[-1::-1]) # 0987654321
+# print(str3[0:10:3]) # 1470
+# 0864 printing :1 skipping :1 yaad rakh
+# print(str3[-1:-8:-2])
+#String Manipulation Functions:
+# 1.upper()
+# 2.lower()
+# 3.capitialize()
+# 4.title()
+# 5.swapcase()
 # upper() changes from lower case to upper case ex:
-#tr1= "Apple"
+#str1= "Apple"
 #print(str1.upper())
 
 # lower() changes from upper case to lower case ex:
@@ -54,18 +123,18 @@ print(x + y == 9)
 #capitalize()
 #str1 = "my dear friend"
 #print(str1.capitalize())
-"""str3 = "Danny is a good boy"
-print(str3.capitalize())"""
+str3 = "Danny is a good boy"
+print(str3.capitalize())
 # title() :first letter of each word will be capitalized
-"""str1 = "my dear friend"
-print(str1.title())
+str1 = "my dear friend"
+print(str3.title())
 str2 = "Ashraf Ali My Boy"
-print(str2.title())"""
+print(str2.title())
 # swapcase():changes upper case to lower case and lower case to upper case
-"""str1 = "My dear friend"
-print(str1.swapcase())
-str2 = "Ashraf Ali My Boy"
-print(str2.swapcase())"""""
+# str1 = "My dear friend"
+# print(str1.swapcase())
+# str2 = "Ashraf Ali My Boy"
+# print(str2.swapcase())
 
 #index() : returns the index of the first occurrence of the specified value
 #str1 ="ABCDEFGHIJKLMN"
@@ -84,22 +153,23 @@ print(str2.swapcase())"""""
 #str11 = "ABCBCA"
 #print(str11.index("BC"))
 #print(str11.rindex("BC"))
+
 #.find() : returns the index of the first occurrence of the specified value
-"""str1 ="ABCDEF"
-print(str1.find("C"))
-print(str1.find("A"))
-print(str1.find("D"))  
-print(str1.find("Z"))"""  # returns -1 if the value is not found
+# str1 ="ABCDEF"
+# print(str1.find("C"))
+# print(str1.find("A"))
+# print(str1.find("D"))  
+# print(str1.find("Z"))  # returns -1 if the value is not found
 #.rfind() : returns the index of the last occurrence of the specified value from the right side
 #str1 ="ABCDEF"
 #print(str1.rfind("C"))
 
-"""x=10
-y=x
-x=20
-print(y)
-a=b=c=5
-print(a,b,c)"""""
+# x=10
+# y=x
+# x=20
+# print(y)
+# a=b=c=5
+# print(a,b,c)
 #-----------------------
 # is methods
 # isalpha() : returns True if all characters in the string are alphabetic
@@ -118,7 +188,8 @@ print(a,b,c)"""""
 #str1 = "asdfghjk"
 #print(str1.isalpha())
 #str1="apple123"
-#str2 =" "
+# str2 =split(s2)
+# print(dir(str))
 #str3 ="@#$%"
 #str4 = "Apple@123"
 #print(str2.isalpha()) 
@@ -210,7 +281,7 @@ print(a,b,c)"""""
 # list4.remove(5)
 # print(list4) # [1, 2, 3, 4, 6   
 #    pop() method removes an element at a specific index from the list and returns the removed element. It takes a single argument, which is the index of the element to be removed. If no index is specified, it removes and returns the last element of the list.
-list2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# list2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # list2.pop(4)
 # print(list2) 
 # list2.pop(5)
@@ -262,8 +333,50 @@ list2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # print(r1) # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # r2 =set(range(1, 11, 2)) # start=1
         # ------------------------------
-        
-        # Dictionay:
-        # it is a collection of variable and value pair.
-        #  it is ordered but index using its variable ,variable cannot be duplicated
-        # 
+
+# nums = [1, 2, 3, 4, 5]
+# def two_sum(nums):
+#         for i in range(len(nums)):
+#                 for j in range(i + 1, len(nums)):
+#                         if nums[i] + nums[j] == 6:
+#                                 return [i, j]
+
+
+# print(two_sum(nums))
+
+# 1.Create variables to store your name, age, height, and whether you are a student. Print them.  
+# name=input("enter your name:")
+# age=int(input("enter age:"))
+# Height=float(input("enter your height:"))  
+# student_answer = input("Are you a student? (yes/no): ")
+# is_student = student_answer.lower() == "yes"
+# print(name)
+# print(age)
+# print(Height)
+# print(is_student)
+
+# 2.Create two variables a and b and swap their values without using a third variable.
+# a = 10
+# b = 20
+
+# a, b = b, a
+
+# print("a =", a)
+# print("b =", b)
+#3.Take the user's name and age as input and print:
+# -My name is Rahul and I am 25 years old.
+# User=input("Enter name:")
+# age=int(input("Enter age:"))
+# print(f"My name is {User} and I am {age} years old.")
+
+# 4.- Store a person's first name and last name in two variables and create their full name.
+# f → formatted string , {} → put the variable's value here
+# First_Name ="Sameer Ali"   
+# Last_Name  = " Mohammed"
+# print(First_Name+Last_Name)
+
+# Take two numbers from the user and print their sum.
+# Num1 = int(input("Enter the first number: "))
+# Num2 = int(input("Enter the second number: "))
+# print("Sum =", Num1 + Num2)
+
