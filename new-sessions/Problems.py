@@ -75,6 +75,93 @@
 # print("Simple interest =", simple_interest)
 
 # Convert temperature from Celsius to Fahrenheit.
-celsius = float(input("Enter temperature in Celsius: "))
-fahrenheit = celsius * 9 / 5 + 32
-print("Temperature in Fahrenheit =", fahrenheit)
+# celsius = float(input("Enter temperature in Celsius: "))
+# fahrenheit = celsius * 9 / 5 + 32
+# print("Temperature in Fahrenheit =", fahrenheit)
+
+# # Take two numbers and demonstrate +, -, *, /, //, %, and **.
+# Num1=20
+# Num2=30
+# Num3=Num1+Num2
+# print(Num3)
+# Num4=Num1-Num2
+# print(Num4)
+# Num5=Num1 * Num2
+# print(Num5)
+# Num6=Num1/Num2
+# print(Num6)
+# Num7=Num1//Num2
+# Num8=Num1%Num2
+# Num9=Num1**Num2
+# print(Num7)
+# print(Num7)
+# print(Num8)
+
+# Find the remainder when one number is divided by another.
+# dividend = int(input("Enter the first number: "))
+# divisor = int(input("Enter the second number: "))
+# remainder = dividend % divisor
+# print("Remainder =", remainder)
+# Check even %
+# num = int(input("Enter a number: "))
+
+# if num % 2 == 0:
+#     print("Even")
+# else:
+#     print("Odd")
+
+# if num %2==0:
+#     print("Even")
+# else:
+#     print("ODD")
+
+# Calculate the total bill including 18% GST.
+# bill=float(input("Enter number:"))
+# gst=bill*18/100
+# total=bill*gst
+# print("GST:",gst)
+# print("TOTAL:",total)
+
+# n1=float(input("enter number:"))
+# n2=float(input("enter number:"))
+# n3=float(input("enter number:"))
+# n4=float(input("enter number:"))
+# n5=float(input("enter number:"))
+# total = n1 + n2 + n3 + n4 + n5
+# percentage = total / 5
+
+# print("Total:", total)
+# print("Percentage:", percentage)
+
+x=5
+# y=5
+# if x==y:
+#     print("Equal")
+# else:
+#     print("Not Equal;")
+
+    #Take a number and check whether it is positive, negative, or zero.
+# num=50
+# if num>0:
+#         print("pos")
+# elif num <0:
+#         print("neg")
+# else:
+#         print("zero")
+
+# - [ ] Check whether a number is between 10 and 50.
+
+# a=24
+# if 10 <= a <= 50:
+#     print("Between 10 and 50")
+# else:
+#     print("Not between 10 and 50")
+
+# [ ] Check whether a person is eligible to vote using comparison and logical operators.
+
+# age = int(input("Enter age:"))
+# is_citizen = True
+# if age >= 18 and is_citizen:
+#     print("Eligible to vote")
+# else:
+#     print("Not eligible to vote")
