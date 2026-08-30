@@ -133,7 +133,7 @@
 # print("Total:", total)
 # print("Percentage:", percentage)
 
-x=5
+# x=5
 # y=5
 # if x==y:
 #     print("Equal")
@@ -165,3 +165,150 @@ x=5
 #     print("Eligible to vote")
 # else:
 #     print("Not eligible to vote")
+# Given x = 10, predict the output:print(x > 5 and x < 20)
+
+# x=10
+# if x >5 and x < 20:
+#     print("Greater True")
+# else:
+#     print("Not Greater False ")
+    
+# print(x < 5 or x == 10)
+
+# x = int(input("Enter Number:"))
+
+# print(x < 5 or x == 10)
+
+# x = 15
+# print(not (x == 10))
+
+# x =int(input("Enter Number:"))
+# if x % 3 == 0 and x % 5 == 0:
+#     print("Divisible by 3 and 5")
+# else:
+#     print("Not divisible by 3 and 5")
+#Check whether a number is positive.
+# num3=20
+# if num3>0:
+#     print("Posiive")
+# else:
+#     print("Neg")
+
+#Check whether a number is positive, negative, or zero.
+# num3=20
+# if num3>0:
+#     print("Positive")
+# elif num3<0:
+#     print("Negative")
+# else:
+#     print("Zero")
+
+# n=int(input("Enter Number:"))
+# if n%2==0:
+#     print("Even")
+# else:
+#     print("Odd")
+
+# age=int(input("Enter age:"))
+# if age>=18:
+#     print("Eligible")
+# elif age<18:
+#     print("Not Eligible")
+# else:
+#     print("Exactly 18 - Eligible")
+
+# Check whether a student has passed or failed.
+# student=int(input("Enter Marks:"))
+# if student >=25:
+#     print("Pass")
+# elif student<25:
+#     print("Fail")
+# else:
+#     print("Nothing")
+#Check whether a number is divisible by 5.
+# num = int(input("Enter a number: "))
+
+# if num % 5 == 0:
+#     print("Divisible by 5")
+# else:
+#     print("Not Divisible by 5")
+
+# Check whether a given character is a vowel or consonant.
+# char = input("Enter a character: ").lower()
+
+# if len(char) == 1 and char.isalpha():
+#     vowels = "aeiou"
+#     if char in vowels:
+#         print(f"'{char}' is a Vowel")
+#     else:
+#         print(f"'{char}' is a Consonant")
+# else:
+#     print("Please enter a single alphabetic character")
+# Create a grading system:
+#     * 90 or above: A
+#     * 75–89: B
+#     * 60–74: C
+#     * 40–59: D
+#     * Below 40: Fail
+# grade = input("Enter your grade (A/B/C/D/F): ").upper()
+
+# match grade:
+#     case 'A':
+#         print("Excellent! 90-100%")
+#     case 'B':
+#         print("Good! 80-89%")
+#     case 'C':
+#         print("Average! 70-79%")
+#     case 'D':
+#         print("Below Average! 60-69%")
+#     case 'F':
+#         print("Failed! Below 60%")
+#     case _:
+#         print("Invalid grade")
+
+
+# Classify a person's age:
+#     * 0–12: Child
+#     * 13–19: Teenager
+#     * 20–59: Adult
+#     * 60 or above: Senior Citizen
+
+# age = int(input("Enter your age: "))
+# match True:
+#     case _ if 0 <= age <= 12:
+#         print("Child (0-12 years)")
+#     case _ if 13 <= age <= 19:
+#         print("Teenager (13-19 years)")
+#     case _ if 20 <= age <= 59:
+#         print("Adult (20-59 years)")
+#     case _ if age >= 60:
+#         print("Senior Citizen (60+ years)")
+#     case _:
+#         print("Invalid age")
+# Find the largest of three numbers.
+a = 18
+b = 79
+c = 4
+
+# if a > b and a > c:
+#     print(f"Largest number is {a}")
+# elif b > a and b > c:
+#     print(f"Largest number is {b}")
+# else:
+#     print(f"Largest number is {c}")
+    
+# Alternative using max() function:
+# print(f"Largest number is {max(a, b, c)}")
+
+# Find the smallest of three numbers.
+
+print("\n--- Finding Smallest Number ---")
+if a < b and a < c:
+    print(f"Smallest number is {a}")
+elif b < a and b < c:
+    print(f"Smallest number is {b}")
+else:
+    print(f"Smallest number is {c}")
+
+# Alternative using min() function:
+# print(f"Smallest number is {min(a, b, c)}")
