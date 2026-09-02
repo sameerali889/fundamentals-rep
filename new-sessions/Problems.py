@@ -302,13 +302,112 @@ c = 4
 
 # Find the smallest of three numbers.
 
-print("\n--- Finding Smallest Number ---")
-if a < b and a < c:
-    print(f"Smallest number is {a}")
-elif b < a and b < c:
-    print(f"Smallest number is {b}")
-else:
-    print(f"Smallest number is {c}")
+# print("\n--- Finding Smallest Number ---")
+# if a < b and a < c:
+#     print(f"Smallest number is {a}")
+# elif b < a and b < c:
+#     print(f"Smallest number is {b}")
+# else:
+#     print(f"Smallest number is {c}")
 
-# Alternative using min() function:
-# print(f"Smallest number is {min(a, b, c)}")
+# # Alternative using min() function:
+# # print(f"Smallest number is {min(a, b, c)}")
+# - [ ] Create a simple calculator that supports +, -, *, and /.
+
+# Simple calculator
+# num1 = float(input("Enter the first number: "))
+# num2 = float(input("Enter the second number: "))
+# operator = input("Choose an operator (+, -, *, /): ")
+
+# if operator == '+':
+#     result = num1 + num2
+#     print("Result:", result)
+# elif operator == '-':
+#     result = num1 - num2
+#     print("Result:", result)
+# elif operator == '*':
+#     result = num1 * num2
+#     print("Result:", result)
+# elif operator == '/':
+#     if num2 == 0:
+#         print("Error: Cannot divide by zero.")
+#     else:
+#         result = num1 / num2
+#         print("Result:", result)
+# else:
+#     print("Invalid operator. Please choose +, -, *, or /.")
+
+# def is_leap_year(year):
+#     if year % 400 == 0:
+#         return True
+#     elif year % 100 == 0:
+#         return False
+#     elif year % 4 == 0:
+#         return True
+#     else:
+#         return False
+
+
+# for year in range(2020, 2040):
+#     if is_leap_year(year):
+#         print(year, "- Leap year")
+#     else:
+#         print(year, "- Not a leap year")
+
+
+
+def can_form_triangle(side1, side2, side3):
+    if side1 <= 0 or side2 <= 0 or side3 <= 0:
+        return False
+
+    if (
+        side1 + side2 > side3
+        and side1 + side3 > side2
+        and side2 + side3 > side1
+    ):
+        return True
+    else:
+        return False
+
+
+a = float(input("Enter the first side: "))
+b = float(input("Enter the second side: "))
+c = float(input("Enter the third side: "))
+
+if can_form_triangle(a, b, c):
+    print("These sides can form a triangle.")
+else:
+    print("These sides cannot form a triangle.")
+
+def calculate_final_bill(bill_amount):
+    if bill_amount < 0:
+        return None
+
+    if bill_amount >= 200:
+        discount_rate = 0.15
+    elif bill_amount >= 100:
+        discount_rate = 0.10
+    elif bill_amount >= 50:
+        discount_rate = 0.05
+    else:
+        discount_rate = 0
+
+    discount_amount = bill_amount * discount_rate
+    final_amount = bill_amount - discount_amount
+
+    return discount_rate, discount_amount, final_amount
+
+
+bill = float(input("Enter the bill amount: $"))
+
+result = calculate_final_bill(bill)
+
+if result is None:
+    print("Bill amount cannot be negative.")
+else:
+    rate, discount, final_bill = result
+
+    print(f"Original bill: ${bill:.2f}")
+    print(f"Discount rate: {rate * 100:.0f}%")
+    print(f"Discount amount: ${discount:.2f}")
+    print(f"Final bill: ${final_bill:.2f}")
